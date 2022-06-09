@@ -1,3 +1,4 @@
+//Push
 let movieLine = ['tom', 'nancy'];
 
 //adding to array
@@ -9,7 +10,7 @@ movieLine.push('oliver');
 //adding mulitple items
 movieLine.push('eve', 'barry', 'bruce', 'clark');
 
-//***Removing items
+//Pop
 let barbell = [];
 
 barbell.push(45);
@@ -22,3 +23,11 @@ barbell.push(2.5);
 barbell.pop(25);
 barbell.pop(10);
 barbell.pop(10);
+
+//Shift
+movieLine.shift();
+movieLine.shift();
+movieLine.shift();
+
+//Unshift
+movieLine.unshift('VIP');
